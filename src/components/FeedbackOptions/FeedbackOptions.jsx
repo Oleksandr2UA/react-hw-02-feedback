@@ -1,8 +1,6 @@
 import { List } from './FeedbackOptions.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  console.log('opit:', options);
-  console.log(onLeaveFeedback);
   return (
     <List>
       {options.map(option => (
